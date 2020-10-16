@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/a3b2912982.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Tweet Form</title>
+  </head>
+  <body>
+    <section>
+      <h1>What's happening?</h1>
+      <img src="#" alt="@userid" />
+      <form action="#" method="POST">
+        <textarea placeholder="What's happening?" maxlength="280"></textarea>
+        <ul>
+          <li>
+            <button type="button" aria-label="upload files">
+              <i class="far fa-image"></i>
+            </button>
+            <input type="file" multiple accept="image/*, video/*" />
+          </li>
+          <li>
+            <button type="button" aria-label="upload gif">
+              <i class="fas fa-icons"></i>
+            </button>
+          </li>
+          <li>
+            <button type="button" aria-label="create poll">
+              <i class="fas fa-poll-h"></i>
+            </button>
+          </li>
+          <li>
+            <button type="button" aria-label="Add emojis">
+              <i class="far fa-grin-stars"></i>
+            </button>
+          </li>
+          <li>
+            <button type="button" aria-label="create scheduled tweets">
+              <i class="far fa-calendar-plus"></i>
+            </button>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <i class="far fa-circle"></i>
+            <span aria-lable="0 out of 280 characters"></span>
+          </li>
+          <li>
+            <button type="button" aria-label="add another tweet">
+              <i class="fas fa-plus-circle"></i>
+            </button>
+          </li>
+        </ul>
+        <button type="submit">Tweet</button>
+      </form>
+    </section>
+  </body>
+</html>
